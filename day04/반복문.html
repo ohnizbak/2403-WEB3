@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        sum = 0 ;
+
+        // 4를 100번 더해주는 반복문 (사실 4*100쑤면 되지만)
+        // for(초기값 선언, 반복범위ㅣ 설정, 증감식){
+        //       반복 실행될 영역
+        //  }
+        for(let i = 0 ; i < 100 ; i ++){
+            sum = sum + 4 ;
+        }
+
+        console.log(sum)
+
+        sum = 0 ;
+
+        // 반복문이 실행되면서 1씩 증가되는 i를 이용해 1부터 10까지의 합계를 구하는 반복문
+        for(let i = 0 ; i < 100 ; i ++){
+            sum = sum + i ;
+        }
+
+        console.log(sum);
+    </script>
+</body>
+</html>
