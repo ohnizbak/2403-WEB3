@@ -17,9 +17,49 @@
         // console.log(`7 x ${i} = ${sum}`)
 
 
-        for(let i = 1 ; i < 10 ; i = i ++) {
+        for(let i = 1 ; i < 10 ; i++) {
             console.log(`7 x ${i} = ${7*i}`)
         }
+
+
+        for(let i = 1 ; i < 10 ; i++){
+            console.log(`1 x ${i} = ${1*i}`)
+        }
+
+        for(let i = 1 ; i < 10 ; i++){
+            console.log(`2 x ${i} = ${2*i}`)
+        }
+
+        for(let i = 1 ; i < 10 ; i++){
+            console.log(`3 x ${i} = ${3*i}`)
+        }
+
+
+
+        // 내 답
+        for(let e = 2 ; e < 5 ; e ++){
+            for(let i = 1 ; i < 10 ; i ++)
+                console.log(`${e} x ${i} = ${e*i}`)
+        }
+
+        // 쌤 답
+        for(let dan = 2 ; dan < 5 ; dan ++ ){
+            for(let i = 1 ; i < 10 ; i++){
+                console.log(`${dan} x ${i} = ${dan*i}`)
+            }
+        }
+
+
+
+        // 문서에 출력
+        for(let dan = 2 ; dan < 10 ; dan ++ ){
+            document.write(`<h2> ${dan}단 </h2>`)
+                for(let i = 1 ; i < 10 ; i++){
+                    document.write(`${dan} x ${i} = ${dan*i}`)
+                    document.write('<br>')
+            }
+        }
+
     </script>
 </body>
 </html>
